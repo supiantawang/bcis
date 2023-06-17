@@ -25,7 +25,7 @@ class Lesson extends CI_Controller {
 			}
 		}
 		";
-		$data['title'] = "Mapping";
+		$data['title'] = "Community";
 		$this->template->stylesheet->add("/assets/backend/plugins/datatables/dataTables.bootstrap.css");
 		$this->template->javascript->add("/assets/backend/plugins/datatables/jquery.dataTables.min.js"); 
 		$this->template->javascript->add("/assets/backend/plugins/datatables/dataTables.bootstrap.min.js"); 
